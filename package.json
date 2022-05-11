@@ -5,10 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "jest",
-    "serve": "parcel src/**/*.html",
-    "build": "parcel build src/**/*.html"
+    "watch": "ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
