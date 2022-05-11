@@ -1,3 +1,5 @@
+Deployed Site: https://627c2a5678c764000909dce3--rad-chimera-681b08.netlify.app/
+
 # WineFlix
 
 ![Wineflix demo](./wineflix.jpg)
