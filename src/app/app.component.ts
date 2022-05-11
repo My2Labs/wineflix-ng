@@ -1,5 +1,7 @@
-import {Component} from '@angular/core';
-import {faPlay, faInfoCircle} from '@fortawesome/free-solid-svg-icons';
+import { Component } from '@angular/core';
+import { faPlay, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+
+
 
 @Component({
   selector: 'app-root',

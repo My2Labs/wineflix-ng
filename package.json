@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "jest",
+    "serve": "parcel src/**/*.html",
+    "build": "parcel build src/**/*.html"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +23,11 @@
     "@fortawesome/angular-fontawesome": "^0.10.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@types/jest": "^27.5.0",
+    "jest": "^28.1.0",
+    "parcel": "^2.5.0",
     "rxjs": "~7.5.0",
+    "ts-jest": "^28.0.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
