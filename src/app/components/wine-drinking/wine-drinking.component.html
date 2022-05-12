@@ -1,8 +1,12 @@
-<li>
-    <div class="wine">
-        <img src="/assets/red-wine.jpg" alt="Wine" />
-        <div class="amount-consumed">
-            <app-progress></app-progress>
-        </div>
-    </div>
-</li>
+
+
+<section class="category">
+<ul>
+    <li *ngFor="let wine of wines">
+      <div class="wine">
+        <img src={{wine.imageUrl}} alt={{wine.label}} />
+      </div>
+      <app-progress></app-progress>
+    </li>
+  </ul>
+</section>

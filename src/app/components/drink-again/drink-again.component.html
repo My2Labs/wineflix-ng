@@ -1,10 +1,14 @@
 <section class="category">
     <h2>Drink Again</h2>
     <ul>
-        <app-wine-new></app-wine-new>
-        <app-wine></app-wine>
-        <app-wine-new></app-wine-new>
-        <app-wine></app-wine>
-        <app-wine-new></app-wine-new>
-        <app-wine></app-wine>
-        <app-wine></app-wine>
+    <li *ngFor="let wine of wines">
+      <div class="wine">
+        <img src={{wine.imageUrl}} alt={{wine.label}} />
+        <span *ngIf="wine.isNew===true" class="new-badge">New!</span>
+      </div>
+         </li>
+    </ul>
+  </section>
+
+
+
